@@ -1,21 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Button } from '@material-ui/core';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Button color="primary">Maya Chisem</Button>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          “You don’t take a photograph. You ask quietly to borrow it.”
+          <code>— Unknown</code>
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href=""
+          // target="portfolio"
+          // rel="noopener noreferrer"
         >
-          Learn React
+          Enter
         </a>
       </header>
     </div>

@@ -14,10 +14,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: cadetblue; */
+  background-image: url(../src/images/scarf-covering-landscape.jpg);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-position: top;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
